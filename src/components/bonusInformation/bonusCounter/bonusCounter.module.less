@@ -1,6 +1,6 @@
 @import url('../../../variables.module.less');
 
-.bonusInformation__bonusCounter {
+.bonusCounter {
    display: grid;
    grid-template-columns: 3fr 1fr;
    gap: 10px;
@@ -11,19 +11,19 @@
    border-radius: 20px;
    box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.2);
 
-   .bonusInformation__boldText {
+   .bonusCounter__boldText {
       font-size: @font-size + 8px;
       font-weight: 700;
    }
 
-   .bonusInformation__button {
+   .bonusCounter__button {
       grid-row: span 2;
       display: flex;
       justify-content: flex-end;
       align-items: center;
    }
 
-   .bonusInformation__bonusInfo {
+   .bonusCounter__bonusInfo {
       color: @sideColor
    }
 }

@@ -5,18 +5,18 @@ import bonusInformationFireSvg from "../../../icons/bonusInformationFire.svg";
 
 function BonusCounter(props) {
   return (
-    <div className={classes.bonusInformation__bonusCounter}>
-      <div className={classes.bonusInformation__boldText}>
+    <div className={classes.bonusCounter}>
+      <div className={classes.bonusCounter__boldText}>
         {props.numberOfBonuses} бонусов
       </div>
-      <div className={classes.bonusInformation__button}>
+      <div className={classes.bonusCounter__button}>
         <img
           src={bonusInformationButtonSvg}
           alt="button"
           style={{ width: "35px", height: "35px" }}
         />
       </div>
-      <div className={classes.bonusInformation__bonusInfo}>
+      <div className={classes.bonusCounter__bonusInfo}>
         {props.dateBurning} сгорит
         <img
           src={bonusInformationFireSvg}
